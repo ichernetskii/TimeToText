@@ -3,7 +3,7 @@ function solve(time) {
         if (n < 0) throw new Error("Number must be positive or zero.");
 
         // [0 .. 12]
-        const digits = ["midnight", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve"];
+        const digits = [ "midnight", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve" ];
         if (n <= 12) {
             return digits[n];
         }
